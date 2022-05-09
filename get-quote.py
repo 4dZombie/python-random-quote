@@ -6,8 +6,7 @@ def fokus():
   quotes = f.readlines()
   f.close()
 
-  #last = len(quotes) - 1 
-  last = 18 
+  last = len(quotes) - 1 
   rnd = random.randint(0,last) 
   print(quotes[rnd])
 
